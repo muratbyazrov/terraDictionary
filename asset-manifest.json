@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.8a134104.chunk.css",
-    "main.js": "./static/js/main.6e5c8ba6.chunk.js",
-    "main.js.map": "./static/js/main.6e5c8ba6.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.592b087d.js",
-    "runtime-main.js.map": "./static/js/runtime-main.592b087d.js.map",
-    "static/js/2.252fc0d5.chunk.js": "./static/js/2.252fc0d5.chunk.js",
-    "static/js/2.252fc0d5.chunk.js.map": "./static/js/2.252fc0d5.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.049ead731501e3c81916f8ad781f2c5f.js": "./precache-manifest.049ead731501e3c81916f8ad781f2c5f.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.8a134104.chunk.css.map": "./static/css/main.8a134104.chunk.css.map",
-    "static/js/2.252fc0d5.chunk.js.LICENSE.txt": "./static/js/2.252fc0d5.chunk.js.LICENSE.txt",
-    "static/media/TerraWin.css": "./static/media/terra.724135b0.png"
+    "main.css": "/terraDictionary/static/css/main.c039a20d.chunk.css",
+    "main.js": "/terraDictionary/static/js/main.7a484bf5.chunk.js",
+    "main.js.map": "/terraDictionary/static/js/main.7a484bf5.chunk.js.map",
+    "runtime-main.js": "/terraDictionary/static/js/runtime-main.669c8356.js",
+    "runtime-main.js.map": "/terraDictionary/static/js/runtime-main.669c8356.js.map",
+    "static/js/2.252fc0d5.chunk.js": "/terraDictionary/static/js/2.252fc0d5.chunk.js",
+    "static/js/2.252fc0d5.chunk.js.map": "/terraDictionary/static/js/2.252fc0d5.chunk.js.map",
+    "index.html": "/terraDictionary/index.html",
+    "precache-manifest.0da27ae2dff9e27211794005c455d1e3.js": "/terraDictionary/precache-manifest.0da27ae2dff9e27211794005c455d1e3.js",
+    "service-worker.js": "/terraDictionary/service-worker.js",
+    "static/css/main.c039a20d.chunk.css.map": "/terraDictionary/static/css/main.c039a20d.chunk.css.map",
+    "static/js/2.252fc0d5.chunk.js.LICENSE.txt": "/terraDictionary/static/js/2.252fc0d5.chunk.js.LICENSE.txt",
+    "static/media/TerraWin.css": "/terraDictionary/static/media/terra.724135b0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.592b087d.js",
+    "static/js/runtime-main.669c8356.js",
     "static/js/2.252fc0d5.chunk.js",
-    "static/css/main.8a134104.chunk.css",
-    "static/js/main.6e5c8ba6.chunk.js"
+    "static/css/main.c039a20d.chunk.css",
+    "static/js/main.7a484bf5.chunk.js"
   ]
 }

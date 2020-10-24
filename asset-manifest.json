@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6791cd7f.chunk.css",
-    "main.js": "/static/js/main.6c40136a.chunk.js",
-    "main.js.map": "/static/js/main.6c40136a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6278b8d1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6278b8d1.js.map",
-    "static/js/2.252fc0d5.chunk.js": "/static/js/2.252fc0d5.chunk.js",
-    "static/js/2.252fc0d5.chunk.js.map": "/static/js/2.252fc0d5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0f572648bcb45c45f680711c51e752aa.js": "/precache-manifest.0f572648bcb45c45f680711c51e752aa.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6791cd7f.chunk.css.map": "/static/css/main.6791cd7f.chunk.css.map",
-    "static/js/2.252fc0d5.chunk.js.LICENSE.txt": "/static/js/2.252fc0d5.chunk.js.LICENSE.txt",
-    "static/media/TerraWin.css": "/static/media/terra.724135b0.png"
+    "main.css": "/muratbyazrov/terraDictionary.git/static/css/main.2d74b745.chunk.css",
+    "main.js": "/muratbyazrov/terraDictionary.git/static/js/main.24109a3b.chunk.js",
+    "main.js.map": "/muratbyazrov/terraDictionary.git/static/js/main.24109a3b.chunk.js.map",
+    "runtime-main.js": "/muratbyazrov/terraDictionary.git/static/js/runtime-main.d8492bbb.js",
+    "runtime-main.js.map": "/muratbyazrov/terraDictionary.git/static/js/runtime-main.d8492bbb.js.map",
+    "static/js/2.252fc0d5.chunk.js": "/muratbyazrov/terraDictionary.git/static/js/2.252fc0d5.chunk.js",
+    "static/js/2.252fc0d5.chunk.js.map": "/muratbyazrov/terraDictionary.git/static/js/2.252fc0d5.chunk.js.map",
+    "index.html": "/muratbyazrov/terraDictionary.git/index.html",
+    "precache-manifest.23ab7df3348164da89ecec68da92d1c8.js": "/muratbyazrov/terraDictionary.git/precache-manifest.23ab7df3348164da89ecec68da92d1c8.js",
+    "service-worker.js": "/muratbyazrov/terraDictionary.git/service-worker.js",
+    "static/css/main.2d74b745.chunk.css.map": "/muratbyazrov/terraDictionary.git/static/css/main.2d74b745.chunk.css.map",
+    "static/js/2.252fc0d5.chunk.js.LICENSE.txt": "/muratbyazrov/terraDictionary.git/static/js/2.252fc0d5.chunk.js.LICENSE.txt",
+    "static/media/TerraWin.css": "/muratbyazrov/terraDictionary.git/static/media/terra.724135b0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6278b8d1.js",
+    "static/js/runtime-main.d8492bbb.js",
     "static/js/2.252fc0d5.chunk.js",
-    "static/css/main.6791cd7f.chunk.css",
-    "static/js/main.6c40136a.chunk.js"
+    "static/css/main.2d74b745.chunk.css",
+    "static/js/main.24109a3b.chunk.js"
   ]
 }

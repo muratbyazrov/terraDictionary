@@ -1,0 +1,16 @@
+.word-list {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(70px, auto);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .word-list {
+      width: 80%;
+      margin: 10px auto 0px;
+    }
+  }

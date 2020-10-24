@@ -1,0 +1,16 @@
+#root {
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+  #root {
+    width: 100%;
+    padding-top: 70px;
+  }
+}

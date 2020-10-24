@@ -1,0 +1,40 @@
+.terra {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(158, 233, 253);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.terra__title {
+    margin: 50px auto 50px;
+}
+
+.terra__button {
+    margin: 50px auto 50px;
+    width: 100%;
+    height: 100px;
+    background-color: #92F9F2;
+    color: black;
+    font-size: 25px;
+}
+
+.terra__logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: url('../../logo/terra.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto 50px;
+}
+
+.terra-hide {
+    display: none;
+}

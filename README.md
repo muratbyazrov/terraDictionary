@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+[Попробовать можно тут](https://muratbyazrov.github.io/terraDictionary)
 ## Available Scripts
 
 In the project directory, you can run:

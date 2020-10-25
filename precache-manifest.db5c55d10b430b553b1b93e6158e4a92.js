@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec2a136e2e0abc6f5d8d846c7ce1e8ef",
+    "revision": "43582aa3f22d1aef3aaa91797621a126",
     "url": "/terraDictionary/index.html"
   },
   {
-    "revision": "8eeed52aa27a17b3d581",
-    "url": "/terraDictionary/static/css/main.b047236d.chunk.css"
+    "revision": "14e1f864a4da47c73431",
+    "url": "/terraDictionary/static/css/main.fc6328b9.chunk.css"
   },
   {
     "revision": "6c193add2d1797d135cc",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/terraDictionary/static/js/3.7adc9d88.chunk.js"
   },
   {
-    "revision": "8eeed52aa27a17b3d581",
-    "url": "/terraDictionary/static/js/main.d2c36429.chunk.js"
+    "revision": "14e1f864a4da47c73431",
+    "url": "/terraDictionary/static/js/main.475a9036.chunk.js"
   },
   {
     "revision": "6761c08107a38962f286",

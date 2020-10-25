@@ -26,11 +26,11 @@ export default class WordItem extends Component {
             this.setState({
                 classToogle: "btn btn-outline-info"
             })
-        }, 500);
+        }, 1000);
 
         setTimeout(() => {
             setNewState();
-        }, 1000);
+        }, 1700);
     }
 
 

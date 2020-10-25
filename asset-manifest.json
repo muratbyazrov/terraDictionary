@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/terraDictionary/static/css/main.fc6328b9.chunk.css",
-    "main.js": "/terraDictionary/static/js/main.475a9036.chunk.js",
-    "main.js.map": "/terraDictionary/static/js/main.475a9036.chunk.js.map",
+    "main.js": "/terraDictionary/static/js/main.383c5ddb.chunk.js",
+    "main.js.map": "/terraDictionary/static/js/main.383c5ddb.chunk.js.map",
     "runtime-main.js": "/terraDictionary/static/js/runtime-main.deca8efe.js",
     "runtime-main.js.map": "/terraDictionary/static/js/runtime-main.deca8efe.js.map",
     "static/js/2.252fc0d5.chunk.js": "/terraDictionary/static/js/2.252fc0d5.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7adc9d88.chunk.js": "/terraDictionary/static/js/3.7adc9d88.chunk.js",
     "static/js/3.7adc9d88.chunk.js.map": "/terraDictionary/static/js/3.7adc9d88.chunk.js.map",
     "index.html": "/terraDictionary/index.html",
-    "precache-manifest.db5c55d10b430b553b1b93e6158e4a92.js": "/terraDictionary/precache-manifest.db5c55d10b430b553b1b93e6158e4a92.js",
+    "precache-manifest.38a064faaaee70d4b89846fd71aa9e56.js": "/terraDictionary/precache-manifest.38a064faaaee70d4b89846fd71aa9e56.js",
     "service-worker.js": "/terraDictionary/service-worker.js",
     "static/css/main.fc6328b9.chunk.css.map": "/terraDictionary/static/css/main.fc6328b9.chunk.css.map",
     "static/js/2.252fc0d5.chunk.js.LICENSE.txt": "/terraDictionary/static/js/2.252fc0d5.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.deca8efe.js",
     "static/js/2.252fc0d5.chunk.js",
     "static/css/main.fc6328b9.chunk.css",
-    "static/js/main.475a9036.chunk.js"
+    "static/js/main.383c5ddb.chunk.js"
   ]
 }

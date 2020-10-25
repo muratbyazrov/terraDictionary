@@ -23,7 +23,7 @@ export default class TerraWin extends Component {
         return (
             <div className={this.state.className}>
                 <div className='terra__logo'></div>
-                <h1 className='terra__title'>terraDictionary</h1>
+                <h1 className='terra__title display-4'>terraDictionary</h1>
                 <button className='btn btn-info terra__button' onClick={ () => this.start() }>Учиться!</button>
             </div>
         )

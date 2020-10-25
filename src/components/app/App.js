@@ -83,7 +83,6 @@ export default class App extends Component {
 
   ratingCounter = () => {
     let newRating = this.state.successes / (this.state.successes + this.state.errors) * 10;
-    console.log(this.state.successes, this.state.errors);
     newRating = newRating.toFixed(1);
     this.setState({
       rating: newRating

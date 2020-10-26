@@ -3,7 +3,7 @@ import './App.css';
 import Header from '../header/Header';
 import Task from '../task/Task';
 import WordList from '../word-list/WordList';
-import data from '../../data/murat-dictionary.json';
+import dictionary from '../../data/murat-dictionary.json';
 import TerraWin from '../terra-window/TerraWin';
 
 
@@ -20,20 +20,24 @@ export default class App extends Component {
   }
 
   arr = [];
+  data = dictionary.map((item) => {
+    return item.id = dictionary.indexOf(item);
+  });
+ 
 
 
   createNewTaskWord = () => {
-    const random = Math.floor(Math.random() * Math.floor(data.length));
-    const taskWord = data[random]
+    const random = Math.floor(Math.random() * Math.floor(dictionary.length));
+    const taskWord = dictionary[random]
     this.arr = [taskWord]
     return taskWord;
   }
 
   createWordsArr = () => {
     while (this.arr.length <= 5) {
-      const random = Math.floor(Math.random() * Math.floor(data.length));
-      if (!this.arr.includes(data[random])) {
-        this.arr.push(data[random])
+      const random = Math.floor(Math.random() * Math.floor(dictionary.length));
+      if (!this.arr.includes(dictionary[random])) {
+        this.arr.push(dictionary[random])
       }
     }
     this.arr.sort(() => Math.random() - 0.5) // перемешивает порядок слов

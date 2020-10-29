@@ -10,14 +10,17 @@ export default class ErrorWindow extends Component {
     }
 
     render() {
-        const { taskWord, toSpeakTaskWord, visable } = this.props;
+        const { taskWord, toSpeakTaskWord, visable, speak } = this.props;
         const className = `error-window ${visable ? 'show' : 'hide'}`
         return (
             <div className={className}>
                 <h4 className='error-window__title'>Запомните</h4>
                 <p className='error-window__task-word alert alert-warning'>{taskWord.en} - {taskWord.ru}</p>
                 <div className='error-window__speaker'>
-                    <Speaker toSpeakTaskWord={() => toSpeakTaskWord()} />
+                    <Speaker
+                        speak={() => speak(taskWord.en)}
+                        taskWord={taskWord}
+                    />
                 </div>
                 <button className='error-window__button btn btn-light' onClick={() => this.hideAndNext()}>Окей, дальше</button>
             </div>

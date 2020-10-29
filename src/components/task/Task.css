@@ -13,6 +13,14 @@
     margin: auto;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
 @media screen and (max-width: 768px) {
     .task {
       margin: 30px auto 30px;

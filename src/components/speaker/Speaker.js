@@ -3,20 +3,19 @@ import './Speaker.css';
 
 export default class Speaker extends Component {
 
-    speaker = () => {
-        const { toSpeakTaskWord } = this.props;
-        toSpeakTaskWord()
-    }
-
     className = 'speaker btn btn-light'
 
     setClassName = () => {
         this.className = 'speaker btn btn-light'
     }
 
+    speaker = () => {
+        const { speak, taskWord } = this.props;
+        speak(taskWord.en)
+    }
+
 
     render() {
-
         return (
             <button className={this.className} onClick={() => this.speaker()} onMouseOut={() => this.setClassName()}>
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" className="bi bi-volume-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

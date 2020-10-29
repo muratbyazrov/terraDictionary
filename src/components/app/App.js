@@ -62,19 +62,18 @@ export default class App extends Component {
     this.toSpeakTaskWord();
   }
 
-  speak = (text) => {
-    const message = new SpeechSynthesisUtterance();
-    message.lang = "en-En";
-    message.text = text;
-    window.speechSynthesis.speak(message);
-  }
-
   toSpeakTaskWord = () => {
     if (!this.state.taskLang) {
       this.speak(this.state.taskWord.en)
     }
   }
 
+  speak = (text) => {
+    const message = new SpeechSynthesisUtterance();
+    message.lang = "en-En";
+    message.text = text;
+    window.speechSynthesis.speak(message);
+  }
 
   successCounter = () => {
     this.setState({
@@ -113,10 +112,10 @@ export default class App extends Component {
         <TerraWin setNewState={this.setNewState} />
         <ErrorWindow
           taskWord={this.state.taskWord}
-          toSpeakTaskWord={this.toSpeakTaskWord}
           visable={this.state.errorWindowVisable}
           errorWinToogle={this.errorWinToogle}
           nextTask={this.nextTask}
+          speak={this.speak}
         />
         <Header className="alert alert-success" />
         <Task
@@ -124,7 +123,8 @@ export default class App extends Component {
           setNewState={this.setNewState}
           taskLang={this.state.taskLang}
           rating={this.state.rating}
-          toSpeakTaskWord={this.toSpeakTaskWord}
+          speak={this.speak}
+          
         />
         <WordList
           wordsArr={this.state.wordsArr}

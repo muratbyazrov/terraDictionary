@@ -15,6 +15,7 @@ export default class WordItem extends Component {
             this.setState({
                 classToogle: "btn btn-success"
             })
+            this.toSpeaCurrentWord();
             nextTask(1700);
         } else {
             await errorCounter();
@@ -32,8 +33,6 @@ export default class WordItem extends Component {
 
     }
 
-
-
     toSpeaCurrentWord = () => {
         const { currentWord, listLang, speakFunc } = this.props;
         if (!listLang) {
@@ -46,7 +45,7 @@ export default class WordItem extends Component {
         await this.onCheckWord(key);
         const { ratingCounter } = this.props;
         await ratingCounter();
-        this.toSpeaCurrentWord();
+        
     }
 
 

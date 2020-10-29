@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2f9a81bb535a675007926654d2aa9eb",
+    "revision": "5b4d16a801867be6efc0592c862445f1",
     "url": "/terraDictionary/index.html"
   },
   {
-    "revision": "d5fe257ea4f3168cd498",
-    "url": "/terraDictionary/static/css/main.fc6328b9.chunk.css"
+    "revision": "53694de3aa4baf07d07a",
+    "url": "/terraDictionary/static/css/main.73b16cb6.chunk.css"
   },
   {
     "revision": "6c193add2d1797d135cc",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/terraDictionary/static/js/2.252fc0d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b9931d222641052e7780",
-    "url": "/terraDictionary/static/js/3.7adc9d88.chunk.js"
+    "revision": "9f4ac8824ef1fb246efe",
+    "url": "/terraDictionary/static/js/3.c67b2495.chunk.js"
   },
   {
-    "revision": "d5fe257ea4f3168cd498",
-    "url": "/terraDictionary/static/js/main.d003b219.chunk.js"
+    "revision": "53694de3aa4baf07d07a",
+    "url": "/terraDictionary/static/js/main.757ff57f.chunk.js"
   },
   {
-    "revision": "6761c08107a38962f286",
-    "url": "/terraDictionary/static/js/runtime-main.deca8efe.js"
+    "revision": "aba4b04f21bfd7044d2d",
+    "url": "/terraDictionary/static/js/runtime-main.868d0fdd.js"
   },
   {
     "revision": "724135b03e1c50cfe74b9622d87d56d8",

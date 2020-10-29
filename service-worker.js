@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/terraDictionary/precache-manifest.48c0d2abd44714a32397677d7aa6d22f.js"
+  "/terraDictionary/precache-manifest.cafff9bfe996c88c8bdb0eba7e3cff0e.js"
 );
 
 self.addEventListener('message', (event) => {

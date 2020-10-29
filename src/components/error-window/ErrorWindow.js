@@ -10,7 +10,7 @@ export default class ErrorWindow extends Component {
     }
 
     render() {
-        const { taskWord, toSpeakTaskWord, visable, speak } = this.props;
+        const { taskWord, visable, speak } = this.props;
         const className = `error-window ${visable ? 'show' : 'hide'}`
         return (
             <div className={className}>

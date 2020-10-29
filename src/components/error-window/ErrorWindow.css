@@ -24,7 +24,8 @@
 
 .error-window__button {
     margin: auto;
-    width: 30%;
+    width: 40%;
+    height: 15%;
 }
 
 .error-window__title {
@@ -61,7 +62,7 @@
     }
 
     .error-window__button {
-        width: 40%;
+        width: 50%;
     }
 
   }

@@ -1,6 +1,6 @@
 .task {
     display: flex;
-    margin: auto;
+    margin: 0px auto 50px;
     background: #CCA9F8;
     border-radius: 30px;
     width: 90%;

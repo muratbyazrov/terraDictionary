@@ -6,7 +6,10 @@ import WordItem from '../word-item/WordItem';
 export default class WordList extends Component {
   
     render() {
-        const { setNewState, taskWord, wordsArr, listLang, speakFunc, successCounter, errorCounter, ratingCounter } = this.props;
+        const { setNewState, taskWord, wordsArr, 
+            listLang, speakFunc, successCounter, 
+            errorCounter, ratingCounter, showErrWin, 
+            nextTask } = this.props;
         
         const elements = wordsArr.map((item) => {
             return <WordItem
@@ -19,7 +22,8 @@ export default class WordList extends Component {
                 successCounter={successCounter}
                 errorCounter={errorCounter}
                 ratingCounter={ratingCounter}
-
+                showErrWin={showErrWin}
+                nextTask={nextTask}
             />
         })
         return <div className='word-list'>{elements}</div> 

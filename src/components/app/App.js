@@ -5,6 +5,7 @@ import Task from '../task/Task';
 import WordList from '../word-list/WordList';
 import dictionary from '../../data/murat-dictionary.json';
 import TerraWin from '../terra-window/TerraWin';
+import ErrorWindow from '../error-window/ErrorWindow';
 
 
 export default class App extends Component {
@@ -16,14 +17,15 @@ export default class App extends Component {
     listLang: !this.setState.taskLang,
     successes: 0,
     errors: 0,
-    rating: 0
+    rating: 0,
+    errorWindowVisable: false
   }
 
   arr = [];
   data = dictionary.map((item) => {
     return item.id = dictionary.indexOf(item);
   });
- 
+
 
 
   createNewTaskWord = () => {
@@ -93,19 +95,38 @@ export default class App extends Component {
     })
   }
 
+  errorWinToogle = () => {
+    this.setState({
+      errorWindowVisable: !this.state.errorWindowVisable
+    })
+  }
+  
+  nextTask = (mlsec) => {
+    setTimeout(() => {
+        this.setNewState();
+    }, mlsec);
+}
 
   render() {
     return (
-      <>
-        <TerraWin setNewState={this.setNewState}/>
+      <div className='eclipse'>
+        <TerraWin setNewState={this.setNewState} />
+        <ErrorWindow
+          taskWord={this.state.taskWord}
+          toSpeakTaskWord={this.toSpeakTaskWord}
+          visable={this.state.errorWindowVisable}
+          errorWinToogle={this.errorWinToogle}
+          nextTask={this.nextTask}
+        />
         <Header className="alert alert-success" />
         <Task
           taskWord={this.state.taskWord}
           setNewState={this.setNewState}
           taskLang={this.state.taskLang}
           rating={this.state.rating}
+          toSpeakTaskWord={this.toSpeakTaskWord}
         />
-        <WordList 
+        <WordList
           wordsArr={this.state.wordsArr}
           setNewState={this.setNewState}
           taskWord={this.state.taskWord}
@@ -115,8 +136,12 @@ export default class App extends Component {
           errorCounter={this.errorCounter}
           ratingCounter={this.ratingCounter}
           taskLang={this.state.taskLang}
+
+          showErrWin={() => this.errorWinToogle()}
+
+          nextTask={this.nextTask}
         />
-      </>
+      </div>
     )
   }
 }

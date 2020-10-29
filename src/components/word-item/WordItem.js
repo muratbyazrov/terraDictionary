@@ -9,17 +9,19 @@ export default class WordItem extends Component {
     }
 
     onCheckWord = async (key) => {
-        const { setNewState, successCounter, errorCounter, taskWord } = this.props;
+        const { successCounter, errorCounter, taskWord, showErrWin, nextTask } = this.props;
         if (key === taskWord.id) {
             await successCounter();
             this.setState({
                 classToogle: "btn btn-success"
             })
+            nextTask(1700);
         } else {
             await errorCounter();
             this.setState({
                 classToogle: "btn btn-danger"
             })
+            showErrWin()
         }
 
         setTimeout(() => {
@@ -28,10 +30,8 @@ export default class WordItem extends Component {
             })
         }, 1000);
 
-        setTimeout(() => {
-            setNewState();
-        }, 1700);
     }
+
 
 
     toSpeaCurrentWord = () => {

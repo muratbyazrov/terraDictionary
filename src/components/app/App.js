@@ -3,7 +3,7 @@ import './App.css';
 import Header from '../header/Header';
 import Task from '../task/Task';
 import WordList from '../word-list/WordList';
-import dictionary from '../../data/murat-dictionary.json';
+import dictionary from '../../data/base-1.json';
 import TerraWin from '../terra-window/TerraWin';
 import ErrorWindow from '../error-window/ErrorWindow';
 
@@ -99,7 +99,7 @@ export default class App extends Component {
       errorWindowVisable: !this.state.errorWindowVisable
     })
   }
-  
+
   nextTask = (mlsec) => {
     setTimeout(() => {
         this.setNewState();
@@ -124,7 +124,7 @@ export default class App extends Component {
           taskLang={this.state.taskLang}
           rating={this.state.rating}
           speak={this.speak}
-          
+
         />
         <WordList
           wordsArr={this.state.wordsArr}

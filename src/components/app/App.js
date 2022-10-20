@@ -50,7 +50,7 @@ export default class App extends Component {
     const taskWord = this.createNewTaskWord();
     const arr = this.createWordsArr();
     const random = Math.random();
-    const taskLang = random > 0.5 ? false : true
+    const taskLang = random <= 0.5
 
     await this.setState({
       taskWord: taskWord,

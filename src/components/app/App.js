@@ -70,7 +70,7 @@ export default class App extends Component {
 
   speak = (text) => {
     const message = new SpeechSynthesisUtterance();
-    message.lang = "en-En";
+    message.lang = "en-US";
     message.text = text;
     window.speechSynthesis.speak(message);
   }

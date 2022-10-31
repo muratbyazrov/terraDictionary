@@ -106,5 +106,12 @@
     { "en":"rooster", "ru": "петух" },
     { "en":"consider", "ru": "рассматривать, считать" },
     { "en":"eventually", "ru": "в конце концов" },
-    { "en":"nut", "ru": "орех" }
+    { "en":"nut", "ru": "орех" },
+    { "en":"going to", "ru": "собираться" },
+    { "en":"decide", "ru": "решать" },
+    { "en":"member", "ru": "член" },
+    { "en":"prepare", "ru": "подготовить" },
+    { "en":"appearance", "ru": "внешний вид" },
+    { "en":"stubborn", "ru": "упрямый" },
+    { "en":"boring", "ru": "скучный" }
 ]
